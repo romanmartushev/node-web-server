@@ -22,6 +22,7 @@ app.use((request, response, next) => {
 
 // app.use((request, response, next) => {
 //   response.render('maintenance.hbs');
+//   next();
 // });
 
 app.use(express.static(__dirname + '/public'));
